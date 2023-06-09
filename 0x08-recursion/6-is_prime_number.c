@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-**
+/**
   * checker - checks recursively the input from is_prime_number
   * @n: iterator
   * @base: base number to check
