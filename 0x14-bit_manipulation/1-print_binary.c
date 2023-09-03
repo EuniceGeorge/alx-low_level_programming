@@ -5,14 +5,16 @@
  **/
 void print_binary(unsigned long int n)
 {
-	int i, flag;
+	int binNum[32];
+	int i;
 
-	if (n == 0)
-	_putchar('0');
-	for (flag = 0, i = sizeof(n) * 8 - 1; i >= 0; i--)
+	while (n > 0)
 	{
-		if ((n >> i) & 1)
-			flag = 1;
-		if (flag == 1)
-		((n >> i) & 1) ? _putchar('1') : _putchar('0');
+		binNum[i] = n % 2;
+		n = n / 2;
 	}
+	for (int j = i - 1; j > 0; j--)
+	{
+		printf("%d", binNum[j]);
+	}
+}
