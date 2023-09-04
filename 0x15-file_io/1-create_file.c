@@ -1,5 +1,5 @@
 #include "main.h"
-**
+/**
   * create_file - creates a file with rw------- permissions
   * @filename: name of the file, if NULL, return -1
   * @text_content: contents of the file. If NULL, create an empty file
