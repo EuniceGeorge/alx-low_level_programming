@@ -1,4 +1,4 @@
-#include "main.c"
+#include "main.h"
 
 /**
   * _stoi - converts chars to ints
