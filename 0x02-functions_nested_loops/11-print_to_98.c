@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- i* print_to_98- this is the entry point
+ * print_to_98- this is the entry point
  * @n: the value to test
  *
  * Return: it returns the value
