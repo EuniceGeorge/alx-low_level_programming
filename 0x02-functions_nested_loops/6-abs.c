@@ -8,8 +8,6 @@
 
 int _abs(int n)
 {
-	int abs_value;
-
 	if (n < 0)
 	{
 		return (-n);
