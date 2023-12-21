@@ -3,6 +3,7 @@
 /**
  * _isupper- This is the entry point
  * Description: Write a function that checks for uppercase character
+ * @c: the parameter to test
  * Return: 1 on success, 0 otherwise
  */
 
