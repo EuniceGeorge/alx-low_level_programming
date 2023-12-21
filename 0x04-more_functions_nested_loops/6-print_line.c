@@ -2,7 +2,7 @@
 
 /**
  * print_line- This is the entry point
- * Decsription: print a -
+ * Decsription: print a
  * @n: the number of line to prints
  * Return: void
  */
@@ -17,7 +17,7 @@ void print_line(int n)
 	}
 	else
 	{
-		for (size = 0; size <= n; size++)
+		for (size = 0; size < n; size++)
 		{
 			_putchar('_');
 		}
